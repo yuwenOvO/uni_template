@@ -7,6 +7,8 @@
 ├── .vscode # vscode 配置
 ├── dist # 编译后的文件
 ├── node_modules # 依赖包
+├── plugins # 插件
+│   ├── vite-plugins # vite 插件
 ├── scripts # 脚本
 │   ├── postupgrade.mjs # 删除多余的uni-app依赖脚本
 ├── src # 源码
@@ -18,7 +20,6 @@
 │   ├── locales # 国际化
 │   ├── pages # 页面
 │   ├── pages-sub # 分包
-│   ├── static # 静态资源
 │   ├── store # pinia 仓库
 │   ├── types # 类型
 │   ├── utils # 工具函数
